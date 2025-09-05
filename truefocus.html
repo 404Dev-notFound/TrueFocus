@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>True Focus</title>
+  <link rel="stylesheet" href="truefocus.css">
+</head>
+<body>
+  <div class="container">
+    <h1>True Focus</h1>
+    <div class="clock" id="current-time"></div>
+    <div class="timers-container">
+      <div class="timer-box">
+        <h2>Short Break</h2>
+        <div class="timer" id="short-break-timer">05:00</div>
+        <div class="controls">
+          <button onclick="startShortBreakTimer()">Start</button>
+          <button onclick="pauseShortBreakTimer()">Pause</button>
+          <button onclick="resetShortBreakTimer()">Reset</button>
+        </div>
+      </div>
+      <div class="timer-box">
+        <h2>Focus Timer</h2>
+        <div class="timer" id="focus-timer">25:00</div>
+        <div class="controls">
+          <button onclick="startTimer()">Start</button>
+          <button onclick="pauseTimer()">Pause</button>
+          <button onclick="resetTimer()">Reset</button>
+        </div>
+      </div>
+      <div class="timer-box">
+        <h2>Long Break</h2>
+        <div class="timer" id="long-break-timer">10:00</div>
+        <div class="controls">
+          <button onclick="startLongBreakTimer()">Start</button>
+          <button onclick="pauseLongBreakTimer()">Pause</button>
+          <button onclick="resetLongBreakTimer()">Reset</button>
+        </div>
+      </div>
+    </div>
+    <div class="timer-box">
+      <h2>One Hour</h2>
+      <div class="timer" id="one-hour-timer">60:00</div>
+      <div class="controls">
+        <button onclick="startOneHourTimer()">Start</button>
+        <button onclick="pauseOneHourTimer()">Pause</button>
+        <button onclick="resetOneHourTimer()">Reset</button>
+      </div>
+    </div>
+    <div class="timer-box">
+      <h2>Two Hours</h2>
+      <div class="timer" id="two-hour-timer">120:00</div>
+      <div class="controls">
+        <button onclick="startTwoHourTimer()">Start</button>
+        <button onclick="pauseTwoHourTimer()">Pause</button>
+        <button onclick="resetTwoHourTimer()">Reset</button>
+      </div>
+    </div>
+    <div class="timer-box">
+      <h2>Ten Hours</h2>
+      <div class="timer" id="ten-hour-timer">600:00</div>
+      <div class="controls">
+        <button onclick="startTenHourTimer()">Start</button>
+        <button onclick="pauseTenHourTimer()">Pause</button>
+        <button onclick="resetTenHourTimer()">Reset</button>
+      </div>
+    </div>
+    <div class="quotes-container">
+      <p class="quote">"The only way to do great work is to love what you do." - Steve Jobs</p>
+      <p class="quote">"Believe you can and you're halfway there." - Theodore Roosevelt</p>
+      <p class="quote">"The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt</p>
+      <p class="quote">"Strive not to be a success, but rather to be of value." - Albert Einstein</p>
+      <p class="quote">"The best way to predict the future is to create it." - Peter Drucker</p>
+      <p class="quote">"Don't watch the clock; do what it does. Keep going." - Sam Levenson</p>
+      <p class="quote">"The mind is everything. What you think you become." - Buddha</p>
+      <p class="quote">"The only limit to our realization of tomorrow will be our doubts of today." - Franklin D. Roosevelt</p>
+      <p class="quote">"It always seems impossible until it's done." - Nelson Mandela</p>
+      <p class="quote">"The journey of a thousand miles begins with one step." - Lao Tzu</p>
+    </div>
+  </div>
+  <script src="truefocus.js"></script>
+</body>
+</html>
